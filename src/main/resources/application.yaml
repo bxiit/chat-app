@@ -1,0 +1,22 @@
+#spring:
+#  data:
+#    mongodb:
+#      username: bxit
+#      password: bxit
+#      host: localhost
+#      port: 27020
+#      database: chat_app
+#      authentication-database: admin
+server:
+  port: 8090
+
+logging:
+  level:
+    org.springframework:
+      security: debug
+      web: debug
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://bxit:asdasd@cluster0.bmb5fgc.mongodb.net/chat_app
